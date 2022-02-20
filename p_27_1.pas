@@ -1,3 +1,7 @@
+{
+определение наличия заданного файла
+}
+
 function FileExists(const fileName : string) : boolean;
 var
     myFile : text;

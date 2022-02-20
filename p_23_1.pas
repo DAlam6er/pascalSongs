@@ -1,3 +1,8 @@
+{
+Поиск максимума среди двух заданных чисел.
+Демонстрация вложенности вызовов функций.
+}
+
 function Max(arg1, arg2 : integer) : integer;
 begin
     if (arg1 >= arg2) then

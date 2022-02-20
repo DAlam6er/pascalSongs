@@ -1,4 +1,7 @@
-{ p_16_1.pas - игра "вопрос-ответ" }
+{ 
+p_16_1.pas - игра "вопрос-ответ" глава 16 
+Ответы хранятся в файле 'answers.txt'
+}
 
 function LinInFile(var myFile : text) : integer;
 var

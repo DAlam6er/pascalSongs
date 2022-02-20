@@ -1,4 +1,7 @@
-{ print text of this program from file to console }
+{ 
+распечатка текста программы в консоль
+}
+
 var
     myfile : text;
     str : string;

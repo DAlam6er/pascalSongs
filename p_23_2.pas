@@ -1,3 +1,6 @@
+{
+Подсчет символов в строке
+}
 function CharCount(const str : string; ch : char) : integer;
 var
     i, res : integer;

@@ -1,3 +1,11 @@
+{
+Скопировать один файл в другой:
+    с перестановкой местами четных и нечетных строк;
+    с перестановкой строк в обратном порядке.
+Имя исходного файла: 'src.txt'
+Имя конечного файла: 'dest.txt'
+}
+
 procedure printReverseLines(const src, dest : string);
 var
     srcFile, destFile : text;
