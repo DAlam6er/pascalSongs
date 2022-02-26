@@ -6,7 +6,7 @@ var
     myFile : text;
     i : integer;
 begin
-    assign(myFile, 'p_26_1.txt');
+    assign(myFile, 'p_26_1.out');
     rewrite(myFile);
     for i := 1 to 10 do
         writeln(myFile, i);

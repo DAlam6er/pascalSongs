@@ -1,10 +1,10 @@
 { 
 Поиск по базе данных угнанных автомобилей,
-содержащейся в исходном файле 'police.txt'
+содержащейся в исходном файле 'p_29_1.in'
 }
 
 const
-    dbFileName = 'police.txt';
+    dbFileName = 'p_29_1.in';
 
 function FindNumber(var dbFile : text; num : string) : boolean;
 var
@@ -42,6 +42,6 @@ begin
         until (autoNum = '0');
         close(dbFile);
     end else begin
-        writeln('File ''police.txt'' not found!');
+        writeln('File ''p_29_1.in'' not found!');
     end;
 end.

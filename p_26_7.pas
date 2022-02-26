@@ -2,9 +2,9 @@
 Создайте программу для объединения двух файлов.
 Из первого составьте нечетные строки конечного файла, 
 а из второго — четные.
-Имя первого исходного файла: 'dest1.txt'
-Имя второго исходного файла: 'dest2.txt'
-Имя конечного файла: 'src_conc.txt' 
+Имя первого исходного файла: 'p_26_6_1.out'
+Имя второго исходного файла: 'p_26_6_2.out'
+Имя конечного файла: 'p_26_7.out' 
 }
 
 procedure ConcatFiles(const dest, src1, src2 : string);
@@ -37,8 +37,8 @@ end;
 var
     dest, src1, src2 : string;
 begin
-    dest := 'src_conc.txt';
-    src1 := 'dest1.txt';
-    src2 := 'dest2.txt';
+    dest := 'p_26_7.out';
+    src1 := 'p_26_6_1.out';
+    src2 := 'p_26_6_2.out';
     ConcatFiles(dest, src1, src2);
 end.

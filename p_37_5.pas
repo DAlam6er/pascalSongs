@@ -33,9 +33,9 @@ var
     inFile, outFile : Text;
     stNumber : Byte;
 begin
-    Assign(inFile, 'p_37_5_in.txt');
+    Assign(inFile, 'p_37_5.in');
     Reset(inFile);
-    Assign(outFile, 'p_37_5_out.txt');
+    Assign(outFile, 'p_37_5.out');
     Rewrite(outFile);
     Readln(inFile, stNumber);
     s := [];

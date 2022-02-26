@@ -2,7 +2,7 @@
 Выясните код ошибки, возвращаемый функцией IOResult при попытке
 открыть для чтения несуществующий файл 'not_existing.txt'.
 Сделайте то же самое, когда программа пытается открыть для записи файл
-с установленным атрибутом «только чтение» 'read-only.txt'.
+с установленным атрибутом «только чтение» 'p_27_2_RO.out'.
 IOResult сбрасывается в ноль при первом обращении к ней!
 }
 
@@ -19,7 +19,7 @@ begin
         writeln('File not exists! IOResult returned ', error)
     else
         close(myFile);
-    assign(myFile, 'read-only.txt');
+    assign(myFile, 'p_27_2_RO.out');
     {$I-}
         rewrite(myFile);
     {$I+}

@@ -1,8 +1,8 @@
 {
 Программа для нумерации строк файла. Строки исходного файла должны
 копироваться в конечный файл с добавлением перед каждой строкой её номера.
-Имя исходного файла: 'test.txt'
-Имя конечного файла: 'test_enumerated.txt'
+Имя исходного файла: 'p_26_4.in'
+Имя конечного файла: 'p_26_4.out'
 }
 function LinInFile(var myFile : text) : integer;
 var
@@ -28,7 +28,7 @@ var
 begin
     assign(myFile, fileName);
     reset(myFile);
-    assign(finFile, 'test_enumerated.txt');
+    assign(finFile, 'p_26_4.out');
     rewrite(finFile);
     i := 1;
     while (not Eof(myFile)) do begin
@@ -43,5 +43,5 @@ end;
 
 { main program }
 begin
-    EnumerateFile('test.txt');
+    EnumerateFile('p_26_4.in');
 end.

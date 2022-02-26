@@ -32,9 +32,9 @@ var
     res, s1, s2, s3 : TSet;
     inFile, outFile : Text;
 begin
-    Assign(inFile, 'p_37_4_in.txt');
+    Assign(inFile, 'p_37_4.in');
     Reset(inFile);
-    Assign(outFile, 'p_37_4_out.txt');
+    Assign(outFile, 'p_37_4.out');
     Rewrite(outFile);
     s1 := [];
     s2 := [];

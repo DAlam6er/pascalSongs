@@ -2,8 +2,8 @@
 Скопировать один файл в другой:
     с перестановкой местами четных и нечетных строк;
     с перестановкой строк в обратном порядке.
-Имя исходного файла: 'src.txt'
-Имя конечного файла: 'dest.txt'
+Имя исходного файла: 'p_26_5.in'
+Имя конечного файла: 'p_26_5.out'
 }
 
 procedure printReverseLines(const src, dest : string);
@@ -75,7 +75,8 @@ begin
         sLineBreak + '2 - to copy lines in reverse order; 0 - to exit.');
     readln(mode);
     if (mode = 1) then
-        printReverseLines('src.txt', 'dest.txt')
+        printReverseLines('p_26_5.in', 'p_26_5.out')
     else if (mode = 2) then
-        printBackwards('src.txt', 'dest.txt');
+        printBackwards('p_26_5.in', 'p_26_5.out')
+    else if (mode = 2) then
 end.

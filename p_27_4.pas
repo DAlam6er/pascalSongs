@@ -16,11 +16,11 @@
     1       1
     0       1
 В выходной файл запишите в две колонки входной и выходной сигналы.
-Имя входного файла: 'input_mpu.txt'
+Имя входного файла: 'p_27_4.in'
 }
 procedure GetOutput(const inFileName : string);
 const
-    outFileName = 'output_mpu.txt';
+    outFileName = 'p_27_4.out';
     threshold = 3;
 var
     inFile, outFile : text;
@@ -77,5 +77,5 @@ end;
 
 { main program }
 begin
-    GetOutput('input_mpu.txt');
+    GetOutput('p_27_4.in');
 end.

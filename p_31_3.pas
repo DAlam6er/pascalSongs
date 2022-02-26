@@ -8,7 +8,7 @@
 ученика (см) и его весом (кг) составляет менее 100.
 Ваши программы должны сформировать соответствующие файлы с
 фамилиями и данными учеников.
-Имя исходного файла: 'studentsPD.txt'
+Имя исходного файла: 'p_31_3.in'
 }
 
 {$mode objfpc}
@@ -22,9 +22,9 @@ uses
     SysUtils;
 
 const
-    inFileName = 'studentsPD.txt';
-    outFileNameCand = 'studentsCand.txt';
-    outFileNameHealth = 'studentsHealth.txt';
+    inFileName = 'p_31_3.in';
+    outFileNameCand = 'p_31_3_1.out';
+    outFileNameHealth = 'p_31_3_2.out';
 
 procedure SplitStr(
     var inStr, outFam : UnicodeString;

@@ -1,7 +1,7 @@
 {
 Обработка журнала v.1
-Входные данные: файл 'scores.txt'
-Выходные данные: файл 'scores_output.txt'
+Входные данные: файл 'p_30_1.in'
+Выходные данные: файл 'p_30_1.out'
 Содержание входного файла:
 набор строк, содержащих ТОЛЬКО оценки - 
 числа, разделенные пробелом.
@@ -13,8 +13,8 @@
 }
 
 const
-    inFileName = 'scores.txt';
-    outFileName = 'scores_output.txt';
+    inFileName = 'p_30_1.in';
+    outFileName = 'p_30_1.out';
 
 procedure HandleString(var inFile, outFile : text; lineCnt : integer);
 var

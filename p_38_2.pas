@@ -30,7 +30,7 @@ var
     inFile, outFile : Text;
     labA, labB, labC, labD, labE, labF, labG, labH, suspectSet : TSet;
 begin
-    Assign(inFile, 'p_38_2_in.txt');
+    Assign(inFile, 'p_38_2.in');
     Assign(outFile, '');
     Reset(inFile);
     Rewrite(outFile);

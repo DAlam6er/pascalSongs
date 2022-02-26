@@ -41,7 +41,7 @@ begin
         write('Ваш вопрос: ');
         readln(card);
         if (card = '') then break;
-        assign(ansFile, 'answers.txt');
+        assign(ansFile, 'p_25_4.out');
         writeln(RandomLine(ansFile));
     until false;
 end.

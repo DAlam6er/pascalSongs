@@ -34,7 +34,7 @@ var
     sA, sCountry : TBoundSet;
     state : Char;
 begin
-    Assign(inFile, 'p_38_3_in.txt');
+    Assign(inFile, 'p_38_3.in');
     Assign(outFile, '');
     Reset(inFile);
     Rewrite(outFile);

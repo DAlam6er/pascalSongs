@@ -1,7 +1,7 @@
 {
 Обработка журнала v.2
-Входные данные: файл 'scores2.txt'
-Выходные данные: файл 'scores2_output.txt'
+Входные данные: файл 'p_31_1.in'
+Выходные данные: файл 'p_31_1.out'
 Содержание входного файла:
 набор строк, содержащих фамилию ученика - строка
 и оценки - числа. Разделителем является пробел.
@@ -33,8 +33,8 @@ uses
 {$ENDIF}
 
 const
-    inFileName = 'scores2.txt';
-    outFileName = 'scores2_output.txt';
+    inFileName = 'p_31_1.in';
+    outFileName = 'p_31_1.out';
 
 function ReadFam(var inFile : TextFile) : UnicodeString;
 var

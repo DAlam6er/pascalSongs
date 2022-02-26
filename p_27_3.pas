@@ -8,7 +8,7 @@
 ))2+3(( – ошибка – скобки закрываются до открытия.
 (()))(2+3 - ошибка
 
-Входной файл: 'calculations.txt'
+Входной файл: 'p_27_3.in'
 }
 
 function Check(var str : string) : boolean;
@@ -49,7 +49,7 @@ var
     myFile : text;
     str : string;
 begin
-    assign(myFile, 'calculations.txt');
+    assign(myFile, 'p_27_3.in');
     {$I-}
         reset(myFile);
     {$I+}

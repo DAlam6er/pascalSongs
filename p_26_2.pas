@@ -1,10 +1,10 @@
 { шифрование файлов с переменным ключом
 Имя шифруемого файла задается с клавиатуры.
-Файл, куда пишется шифр: 'CRYPT.txt'
+Файл, куда пишется шифр: 'p_26_2.out'
 Имя расшифрованного файла задается с клавиатуры.
 }
 const
-    encrFileName = 'CRYPT.txt';
+    encrFileName = 'p_26_2.out';
 
 function EncryptChar(arg : char; Ckey : integer) : char;
 var
