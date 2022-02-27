@@ -1,0 +1,40 @@
+{
+Сортировка массива случайных целых чисел
+методом "пузырька" с разбиением на пары
+}
+
+const
+    SIZE = 16;
+type
+    TGolds = array [1..SIZE] of Integer;
+var
+    Golds : TGolds;
+
+procedure BubbleSort(var arr : TGolds);
+var
+    i, j, temp : Integer;
+begin
+    for i := 1 to SIZE-1 do begin
+        for j := 1 to SIZE-i do
+            if (arr[j] > arr[j+1]) then begin
+                temp := arr[j];
+                arr[j] := arr[j+1];
+                arr[j+1] := temp;
+            end;
+    end;
+end;
+
+{ main program }
+var 
+    i : Integer;
+begin
+    Randomize;
+    for i := 1 to SIZE do
+        Golds[i] := 500 + Random(500);
+    BubbleSort(Golds);
+    Writeln('По парам:');
+    for i := 1 to (SIZE div 2) do begin
+        Write(i:2, Golds[i]:5, ' + ', Golds[SIZE+1-i]:3, ' = ');
+        Writeln(Golds[i] + Golds[SIZE+1-i]:4);
+    end;
+end.
