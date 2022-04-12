@@ -11,6 +11,7 @@ begin
         cUpCase := aCh - 32;
 end;
 
+{ main }
 var
     ch : UnicodeChar;
 begin
